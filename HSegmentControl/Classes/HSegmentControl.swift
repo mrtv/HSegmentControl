@@ -79,7 +79,7 @@ open class HSegmentControl: UIControl {
     /**
      The `ContentMode` of segment indicator image view
      */
-    @IBInspectable open var segmentIndicatorViewContentMode: UIViewContentMode?{
+    open var segmentIndicatorViewContentMode: UIViewContentMode?{
         didSet{
             reloadData()
         }
